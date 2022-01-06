@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Task Management</title>
+</head>
+<body>
+    <!-- Task Bar -->
+    <div class="header">
+        <div class="container task-management">
+            <h1>Task Management</h1>
+            <form class="flex" id="form">
+                <input id="title" type="text" placeholder="Title..." required>
+                <input id="btn-submit" type="submit" value="Add">
+            </form>
+        </div>
+    </div>
+    
+    <!-- Task List -->
+    <section class="list">
+        <div class="container" id="list-container">
+
+        </div>
+    </section>
+
+    <div class="remove-all">
+        <div class="container">
+            <button id="btn-remove">Remove All</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
